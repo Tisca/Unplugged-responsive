@@ -97,6 +97,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
   text-align: left;
 }
 
@@ -128,6 +129,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
+  margin: 20px 0;
 }
 
 p {
@@ -156,11 +158,11 @@ address {
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #9ac2a3;
 }
 
 header {
@@ -176,6 +178,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background-color: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -188,16 +191,23 @@ header nav {
   flex-flow: row wrap;
   width: 60%;
   font-size: 1.125em;
-  font-weight: bold;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 0;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -226,7 +236,7 @@ footer .social-icons p {
   align-items: center;
 }
 
-.copyright {
+footer .copyright {
   margin: 20px 0;
 }
 
@@ -238,7 +248,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #b3d4fc;
+  background-color: #000000;
 }
 
 /* Aside */
@@ -248,7 +258,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #94b0b9;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -257,7 +293,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #a7beb5;
+  background-color: #000000;
 }
 
 .features h2 {
@@ -277,12 +313,14 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -302,6 +340,7 @@ aside {
 /* -------------------- Mobile Styles – About Page -------------------- */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,6 +348,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -322,6 +362,7 @@ aside {
 /* -------------------- Mobile Styles – FAQ Page -------------------- */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
