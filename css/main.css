@@ -661,6 +661,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 40%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
