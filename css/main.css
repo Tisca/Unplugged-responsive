@@ -200,7 +200,6 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-left: 0;
 }
 
 header nav ul li {
@@ -255,7 +254,7 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
@@ -323,6 +322,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
@@ -347,8 +351,9 @@ input[type=button] {
   margin: 20px 0;
 }
 
-
-/* -------------------- Mobile Styles – About Page -------------------- */
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission {
   background-color: #527158;
@@ -386,7 +391,9 @@ input[type=button] {
   margin: 0;
 }
 
-/* -------------------- Mobile Styles – FAQ Page -------------------- */
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
 .faq {
   background-color: #527158;
@@ -500,8 +507,8 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
+   Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
@@ -653,7 +660,7 @@ input[type=button] {
   .mission-content {
     display: flex;
     justify-content: space-between;
-    align-items: space-around;
+    align-items: center;
     padding-top: 20px;
   }
 
@@ -662,7 +669,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 40%;
+    padding-bottom: 45%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -778,6 +785,10 @@ input[type=button] {
     ==============================
 */
 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
